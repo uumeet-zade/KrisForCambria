@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="100%" height="100%">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&amp;family=Playfair+Display:wght@900&amp;display=swap');
+            .bg { fill: #1a202c; }
+            .primary { fill: #e53e3e; }
+            .primary-dark { fill: #c53030; }
+            .white { fill: #ffffff; }
+            .text-serif { font-family: 'Playfair Display', serif; font-weight: 900; }
+            .text-sans { font-family: 'Inter', sans-serif; font-weight: 800; }
+            .text-sans-regular { font-family: 'Inter', sans-serif; font-weight: 400; }
+        </style>
+    </defs>
+    
+    <!-- Red Sky Background -->
+    <rect width="400" height="350" class="primary-dark"/>
+    
+    <!-- Sharp Sun / Geometric burst for hope and future -->
+    <polygon points="200,350 120,100 280,100" class="primary"/>
+    <polygon points="200,350 20,180 80,60" class="primary"/>
+    <polygon points="200,350 380,180 320,60" class="primary"/>
+    
+    <!-- City & Rural Silhouette (Sharp geometric shapes) -->
+    <!-- Representing Workers and Industry (City on right) -->
+    <polygon points="400,350 400,200 360,200 360,220 330,220 330,170 300,170 300,250 260,250 260,350" class="bg"/>
+    
+    <!-- Representing Rural Cambria and Environment (Mountains on left) -->
+    <polygon points="0,350 0,230 60,160 120,240 170,190 230,280 280,350" class="bg"/>
+    
+    <!-- Center white shape to frame the party logo -->
+    <polygon points="200,15 240,35 240,85 200,105 160,85 160,35" class="white"/>
+    
+    <!-- Official SDA Logo embedded -->
+    <image href="SDAlogo.svg" x="172" y="20" width="56" height="78" />
+    
+    <!-- Divider -->
+    <rect x="0" y="340" width="400" height="10" class="primary"/>
+    
+    <!-- Lower Section Background -->
+    <rect x="0" y="350" width="400" height="250" class="bg"/>
+    
+    <!-- Campaign Details -->
+    <text x="200" y="410" class="text-serif white" font-size="44" text-anchor="middle">KRIS DALGAARD</text>
+    <text x="200" y="440" class="text-sans primary" font-size="20" text-anchor="middle" letter-spacing="2">A VOICE FOR THE MASSES</text>
+    
+    <!-- Main Slogan -->
+    <text x="200" y="490" class="text-sans white" font-size="32" text-anchor="middle" letter-spacing="1">KEEP CAMBRIA RED</text>
+    
+    <!-- Core Policies Summary -->
+    <text x="200" y="525" class="text-sans-regular white" font-size="12" text-anchor="middle">FIGHTING FOR WORKERS &amp; LOCAL BUSINESS</text>
+    <text x="200" y="542" class="text-sans-regular white" font-size="12" text-anchor="middle">PROTECTING OUR RURAL ENVIRONMENT</text>
+    
+    <!-- Slogan Banner -->
+    <rect x="20" y="560" width="360" height="24" class="primary"/>
+    <text x="200" y="578" class="text-sans white" font-size="16" text-anchor="middle" letter-spacing="5">NEVER LOSE HOPE</text>
+    
+    <!-- Strict Sharp Border (inset to prevent clipping/white bars during conversion) -->
+    <rect x="8" y="8" width="384" height="584" fill="none" stroke="#e53e3e" stroke-width="16"/>
+</svg>
